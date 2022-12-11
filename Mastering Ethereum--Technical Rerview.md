@@ -11,5 +11,17 @@ As stated earlier, transacions on the Ethereum blockchain requires a wallet or a
 It is encourages to get a feel of what transactions look like, for beginners, using a test faucet. Due to the recent hard forks, the availabke test faucets are Goerli and Sepolia.
 
 
-#Chapter 3: Ethereum Clients
+# Chapter 3: Ethereum Clients
 
+Remember we defined Ethereum as been  a world computer which simply means it has to run on some form of software often referred to as "Ethereum Clients". It also has the minimum specification requirements just like most softwares we run on our perosnal of enterprise computers. The Ethereum Yellow Paper does enough justice prescribing the minimum and recommended requirements for running the Ethereum Client. It is also important to note that the clients comes in different languages such as 
+
+- Geth, written in Go
+- Parity, written in Rust
+- cpp-ethereum, written in C++
+- Mantis, written in Scala
+- Harmony, written in Java
+- pyethereum, written in Python
+
+
+
+    
