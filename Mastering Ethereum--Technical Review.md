@@ -37,5 +37,11 @@ keys are an essential part of the Ethereum ecosystem and are never transmitted o
 
 # Chapter 5: Wallets
 
-Interactions within the Ethereum blockchain involves the use of ethereum wallets. While wallets have several definitions from different perspectives, that of a developer refers to a system used to store and manage user's keys. This 
+Interactions within the Ethereum blockchain involves the use of ethereum wallets. While wallets have several definitions from different perspectives, that of a developer refers to a system used to store and manage user's keys. This swerves as a simple solution for managing tokens as well, thoughcomes with its own sets of risk. There are two types of wallets; non-deterministic and deterministic wallet, and the difference between the two been that keys are independently generated from a random number for non-deterministic wallets, while for determinstic wallets,the keys are derived from a single master key known as the seed.
+In order to add layers of security to wallets,common standards have been enforced such as;
+
+- Mnemonic code words based on BIP-39
+- HD wallets based on BIP-32
+- Multipurpose HD wallets structure based on BIP-43
+- Multicurrency and multi-account wallets based on BIP-44
     
