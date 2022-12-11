@@ -23,5 +23,19 @@ Remember we defined Ethereum as been  a world computer which simply means it has
 - pyethereum, written in Python
 
 
+# Chapter 4: Cryptography
 
+One of the main goals of Ethereum was to achieve a decentralized network where transactions were done without 3rd party trustees, and with a certain level of anonymity via a branch of mathematics called " cryptography". Cryptography, as most computer science folks know, is a means of encrypting mssages/data in plan sight for the protection of account users/developers. The widely used type of crytography in the Ethereum ecosystem, is the Public Key Cryptography(PKC).
+keys are an essential part of the Ethereum ecosystem and are never transmitted or stored on Ethereum, nevertheless, in order to keep private keys secure, there is a need for strict "control and responsibility" which will be discussed in later chapters. It is worthy to note that the method of transaction on the Ethereum system works with both private and public keys, to ensurea secure channel at all times. When a transaction is inititiated, the datat is encrypted as a cryptographic hash function, which maps the data to a fixed-size string of bits. This form of encryption holds certain properties such as:
+
+- Determinism
+- Verifiability
+- Non correlation
+- Irreversibility, and
+- Collision protection
+
+
+# Chapter 5: Wallets
+
+Interactions within the Ethereum blockchain involves the use of ethereum wallets. While wallets have several definitions from different perspectives, that of a developer refers to a system used to store and manage user's keys. This 
     
